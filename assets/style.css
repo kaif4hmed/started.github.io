@@ -26,8 +26,8 @@ header ul {
 header li {
   list-style: none;
 }
-header .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
+ .navbar-collapse {
+  display: flex;
   flex-basis: unset;
   justify-content: space-around;
   align-items: baseline;
@@ -101,8 +101,8 @@ a.nav-link:hover {
 .bottm-nav form.d-flex {
   width: 33%;
 }
-.bottm-nav .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
+.bottm-nav.navbar-collapse {
+  display: flex;
   flex-basis: unset;
   gap: 50px;
   justify-content: space-evenly;
@@ -123,8 +123,8 @@ a.nav-link:hover {
   border-left: 0px;
 }
 
-.botmlast .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
+.botmlast.navbar-collapse {
+  display: flex;
   flex-basis: auto;
   justify-content: center;
 }
