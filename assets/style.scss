@@ -31,8 +31,8 @@
          list-style: none;
      }
 
-     .navbar-expand-lg .navbar-collapse {
-         display: flex !important;
+     ..navbar-collapse {
+         display: flex;
          flex-basis: unset;
          justify-content: space-around;
          align-items: baseline;
@@ -119,8 +119,8 @@
          width: 33%;
      }
 
-     .navbar-expand-lg .navbar-collapse {
-         display: flex !important;
+     .navbar-collapse {
+         display: flex;
          flex-basis: unset;
          gap: 50px;
          justify-content: space-evenly;
@@ -148,8 +148,8 @@
  }
 
  .botmlast {
-     .navbar-expand-lg .navbar-collapse {
-         display: flex !important;
+      .navbar-collapse {
+         display: flex;
          flex-basis: auto;
          justify-content: center;
      }
